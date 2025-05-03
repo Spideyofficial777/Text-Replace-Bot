@@ -6,9 +6,9 @@ class Config(object):
 
     BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
-    APP_ID = int(os.environ.get("APP_ID", 12345))
+    APP_ID = int(os.environ.get("APP_ID", 28519661))
 
-    API_HASH = os.environ.get("API_HASH", "")    
+    API_HASH = os.environ.get("API_HASH", "d47c74c8a596fd3048955b322304109d")    
     
     CAPTION_TEXT = os.environ.get("CAPTION_TEXT", "")
 
