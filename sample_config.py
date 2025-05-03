@@ -4,7 +4,7 @@ class Config(object):
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
-    BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7901002135:AAG__-AafzUApV4H9ugQeg45AAwc8fDmsRg")
 
     APP_ID = int(os.environ.get("APP_ID", 28519661))
 
