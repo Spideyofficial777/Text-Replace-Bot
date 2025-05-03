@@ -10,8 +10,12 @@ class Config(object):
 
     API_HASH = os.environ.get("API_HASH", "d47c74c8a596fd3048955b322304109d")    
     
-    CAPTION_TEXT = os.environ.get("CAPTION_TEXT", "")
+    CAPTION_TEXT = os.environ.get("CAPTION_TEXT", "<b><a href="https://t.me/Spideyofficial_777">{file_name}</a>
+
+🗂️ ꜱɪᴢᴇ : {file_size}
+
+<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ :  <a href='https://telegram.me/Hacker_x_official_777'>ʜᴀᴄᴋᴇʀ_x_ᴏꜰꜰɪᴄɪᴀʟ_777</a></blockquote></b>")
 
     CAPTION_POSITION = os.environ.get("CAPTION_POSITION", "bottom")
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5518489725").split())
